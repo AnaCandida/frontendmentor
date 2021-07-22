@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;*/
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color:  hsl(0, 0%, 95%);
+
+}
+
+a{
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+main{
+  display:block;
+  height: 100%;
+  width:375px;
+ /* flex-direction: column;*/
+  margin:30px auto;
+  background-color:  hsl(0, 0%, 95%);
+
+}
+
+.c-card{
+text-align:left;
+height: 480px;
+padding: 50px 0 0 55px; 
+}
+
+.c-card img{
+  padding: 0 0 30px 0;
+  
+}
+
+.c-card h3{
+  color:  hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 45px;
+  padding: 0 0 35px 0;
+}
+
+.c-card p{
+  color:hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+width: 250px;
+padding-bottom: 30px;
+
+}
+
+button{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  border:1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%); 
+
+  
+}
+
+.ora{
+  background-color:  hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+
+.btn_ora:hover{
+  color:hsl(0, 0%, 95%); 
+  background-color: hsl(31, 77%, 52%);
+  border: 3px solid hsl(0, 0%, 95%);
+
+}
+
+.blue{
+  background-color:hsl(184, 100%, 22%)
+}
+
+.btn_blu{
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%); 
+}
+.btn_blu:hover{
+  color:hsl(0, 0%, 95%); 
+  background-color: hsl(184, 100%, 22%);
+  border: 3px solid hsl(0, 0%, 95%);
+}
+.green{
+  background-color:hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+
+
+.btn_gre{
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%); 
+}
+.btn_gre:hover{
+  color:hsl(0, 0%, 95%); 
+  background-color: hsl(179, 100%, 13%);
+  border: 3px solid hsl(0, 0%, 95%);
+
+}
+footer{
+  margin: 0 0 40px 0;
+  color: black;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+
+@media (min-width: 1400px){
+  
+  body{
+    height: 100%;
+  }
+ 
+  main{
+    display:flex;
+    justify-content: center;
+    width:1400px;
+    margin: 100px auto;
+    }
+
+    .c-card{
+      width: 350px;
+      }
+
+  .ora{
+    border-radius: 10px 0 0 10px;
+  }
+
+  .green{
+    border-radius: 0 10px 10px 0;
+  }
+
+  
+
+}
